@@ -41,18 +41,19 @@ export default function Home() {
           After creating your pool, you will receive a unique code that you can use to invite others 🚀
         </p>
 
-        <div className='mt-10 pt-10 border-t border-gray-600 divide-x grid grid-cols-2 text-gray-100'>
+        <div className='mt-10 pt-10 border-t border-gray-600 flex items-center justify-between text-gray-100'>
           <div className='flex items-center gap-6'>
             <Image src={iconCheckImg} alt="" />
-            <div className=''>
-              <span>+2.034</span>
+            <div className='flex flex-col'>
+              <span className='font-bold'>+2.034</span>
               <span>Pools created</span>
             </div>
           </div>
+          <div className='w-px h-12 bg-gray-600'></div>
           <div className='flex items-center gap-6'>
             <Image src={iconCheckImg} alt="" />
-            <div className=''>
-              <span>+192.847</span>
+            <div className='flex flex-col'>
+              <span className='font-bold'>+192.847</span>
               <span>Guesses sent</span>
             </div>
           </div>
